@@ -5,6 +5,11 @@ public class Trainer {
     String name;
     private int YearOfBirth;
 
+    public Trainer() {
+        name = "John Doe";
+        YearOfBirth = 1980;
+    }
+
     public String getName() {
         return name;
     }
