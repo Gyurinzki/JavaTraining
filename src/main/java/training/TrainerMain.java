@@ -8,8 +8,8 @@ import java.sql.SQLOutput;
 public class TrainerMain {
 
     public static void main(String[] args) {
-        Trainer trainer = new Trainer();
-        Trainer anotherTrainer = new Trainer();
+        Trainer trainer = new Trainer("John Doe", 1980);
+        Trainer anotherTrainer = new Trainer("Jack Doe", 1981);
 
         System.out.println(trainer.getName());
         System.out.println(trainer.getYearOfBirth());
@@ -17,7 +17,6 @@ public class TrainerMain {
         System.out.println(anotherTrainer.getName());
         System.out.println(anotherTrainer.getYearOfBirth());
 
-        Trainer trainer = new Trainer();
         trainer.name = "John Doe";
         trainer.setYearOfBirth(1980);
         System.out.println(trainer.name);
